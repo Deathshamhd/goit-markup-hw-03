@@ -12,6 +12,20 @@ body
    font-style: normal;
 }
 
+.container
+{
+    max-width: 1200px;
+ 
+
+   
+
+}
+header
+{
+    display: flex;
+    
+}
+
 a
 {
     text-decoration: none;
@@ -54,12 +68,18 @@ letter-spacing: 0.03em;
 
 color:var(--accent-color);
 
+
+
+
+
 }
 
 .nav-list
 {
     
     color: var(--light-background-color);
+    text-align: center;
+    
 }
 .nav-link
 {
@@ -72,6 +92,9 @@ line-height: calc(16/14);
 letter-spacing: 0.02em;
 
 color: var(--primary-text-color);
+
+
+
 }
 
 .nav-link:hover,.nav-link:focus
@@ -149,6 +172,7 @@ background-color:var(--accent-color);
 
 
 
+
 border: none;
 
 cursor: pointer;
@@ -160,6 +184,8 @@ font-size: 16px;
 line-height: calc(30/16);
 
 color: var(--light-background-color);
+
+margin-left: 500px;
 
 
 }
