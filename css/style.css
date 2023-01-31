@@ -74,11 +74,18 @@ font-weight: 700;
 
 font-size: 26px;
 
-padding-top: 50%;
+
 
 line-height: calc(31/26);
 
 letter-spacing: 0.03em;
+
+display:flex;
+
+padding:30px;
+
+
+border: solid 1px red;
 
 
 color:var(--accent-color);
@@ -94,8 +101,11 @@ color:var(--accent-color);
     
     color: var(--light-background-color);
     text-align: center;
-    display: flex;
+    display:inline-flex;
      align-items: center; 
+     padding-top: 15px;
+
+     justify-content: space-evenly;
     
 }
 .nav-link
@@ -103,9 +113,10 @@ color:var(--accent-color);
 font-weight: 500;
 display: flex; 
 
-align-items: center;
+
 
 font-size: 14px;
+justify-content: space-evenly;
 
 line-height: calc(16/14);
 
@@ -150,6 +161,10 @@ padding: 0 10px 0 10px;
     letter-spacing: 0.02em;
 
     color: var(--secondry-text-color);
+
+    justify-content: flex-end;
+text-align: end;
+    display: flex;
     
 }
 
