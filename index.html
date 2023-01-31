@@ -6,72 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
     <title>Homework</title>
 </head>
 <body>
    
-    <header class="container">
+    <header class="header">
+        <div class="container header-container">
         <a href="index.html" class="header-logo">Webstudio<a>
         <nav>
        
         
             <ul class="nav-list">
-                <li><a href="index.html" class="nav-link  nav-link-current">studio</a></li>
-                <li><a href="portfolio.html"class="nav-link">protfolio</a></li>
-                <li><a href="contacts.html"class="nav-link">contacts</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link  nav-link-current">studio</a></li>
+                <li class="nav-item"><a href="portfolio.html"class="nav-link">protfolio</a></li>
+                <li class="nav-item"><a href="contacts.html"class="nav-link">contacts</a></li>
             </ul>
         </nav>
         <ul class="contact-list">
-            <li><a href="mailto:info@devstudio.com" class="contact-mailto">info@devstudio.com </a></li>
-                <li><a href="tel:+380961111111"class="contact-tel">+380961111111 </a></li>
+            <li class="contact-item">
+                <a href="mailto:info@devstudio.com" class="contact-links">info@devstudio.com </a>
+            </li>
+                <li class="contact-item">
+                    <a href="tel:+380961111111"class="contact-links">+380961111111 </a>
+                </li>
         </ul>
+    </div>
     </header>
-    <main class="container">
+    <main>
+
         <section class="hero-section" >
+
+
+            <div class="container">
 
             <h1 class="hero-title">EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS</h1>
 
             <button type="button" class="hero-button">Request our service</button>
-
+            </div>        
         </section>
    
     <section class="feature-section">
-        <h2>Our Features</h2>
+        <div class="container">
+
+    <h2>
+        Our Features
+    </h2>
 
         <ul class="feature-list">
 
             <li class="feature-item">
 
-                <h3 class="feature-title">ATTENTION TO DETAILS</h3>
+                <h3 class="feature-title">
+                    ATTENTION TO DETAILS
+                </h3>
           
-                <p class="feature-text">We go into all the details and processes of your business to develop a customized solution.</p>
+                <p class="feature-text">
+                    We go into all the details and processes of your business to develop a customized solution.
+                </p>
             
-           
+           </li>
+
+           <li class="feature-item">
                 <h3 class="feature-title">PUNCTUALITY</h3>
         
-                <p>With us, you can feel safe and secure. An important principle of the company: respect your time and respect the agreed deadlines.</p>
-            <li>
+                
+                <p class="feature-text">
+                    With us, you can feel safe and secure. An important principle of the company: respect your time and respect the agreed deadlines.
+
+                </p>
+            </li>
+                
+
             <li class="feature-item">
 
                 <h3 class="feature-title">PLANNING</h3>
             
            
-                <p>You will be able to observe and participate in every phase of solution development and implementation.</p>
+                <p class="feature-text">
+                    You will be able to observe and participate in every phase of solution development and implementation.
+                </p>
             
-                <h3 class="feature-title">MODERN TECHNOLOGIES</h3>
+                <h3 class="feature-title">
+                    MODERN TECHNOLOGIES
+                </h3>
             
          
-                <p class="feature-text">We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
+                <p class="feature-text">
+                    We use innovative tools to solve assigned tasks. It's time to simplify work processes.
+                </p>
             </li>
 
         </ul>
+    </div>
 
     </section>
 
     <section class="what-section">
+        <div class="container">
         <h2 class="what-title">What we do</h2> 
         <ul class="what-list">
 
@@ -86,10 +120,19 @@
                 <img src="img/what-we-do-3.jpg" alt="Whatwedo" width="370px" hight="294px" class="what-img">
             </li> 
     </ul>
+
+</div>
+
     </section>
+
+    <div class="container">
+
     <section class="team-section">
+
         <h2 class="team-title">Ourteam</h2>
+
         <ul class="team-list">
+
             <li class="team-item">
                 
             
@@ -137,9 +180,12 @@
 
             
         </ul>
+    </div>
     </section>
+
     </main>
-        <footer class="conainer">
+        <footer>
+            <div class="container">
             <a href="index.html" class="footer-logo">Webstudio</a>
             <address class="address-contact">
                 <ul class="address-list">               
@@ -159,6 +205,7 @@
                 </ul>
 
             </address>
+        </div>
         </footer>
    
     

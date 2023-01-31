@@ -1,3 +1,10 @@
+*
+{
+    padding: 0;
+
+    margin:0;
+    box-sizing: border-box;
+}
 :root
 {
     --primary-text-color:#212121;
@@ -16,17 +23,16 @@ body
 {
     max-width: 1200px;
 
-    margin: auto;
- 
 
-   
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+    margin: 0 auto;
 
 }
-header
-{
-    display: flex;
-    
-}
+
+
 
 a
 {
@@ -45,23 +51,33 @@ a:active
 }
 
 
+img
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 
 ul
 {
     list-style:none;
 }
 
-/*header*/
+/*HEADER*/
 
-header
+.header
 {
-
-    
-    border: 1px solid black;
-    height: 80px;
-    display: flex;
+border-bottom: 1px solid #ECECEC;
 }
 
+.header-container
+{
+    display: flex;
+
+    align-items: center;
+}
 
 
 .header-logo
@@ -74,21 +90,14 @@ font-weight: 700;
 
 font-size: 26px;
 
-
+margin-right: 97px;
 
 line-height: calc(31/26);
 
 letter-spacing: 0.03em;
 
-display:flex;
-
-padding:30px;
-
-
-border: solid 1px red;
-
-
 color:var(--accent-color);
+
 
 
 
@@ -100,33 +109,32 @@ color:var(--accent-color);
 {
     
     color: var(--light-background-color);
-    text-align: center;
-    display:inline-flex;
-     align-items: center; 
-     padding-top: 15px;
 
-     justify-content: space-evenly;
+    display: flex;
+   
+   
     
+}
+
+.nav-item:not(:last-child)
+{
+    margin-right: 53px;
 }
 .nav-link
 {
 font-weight: 500;
-display: flex; 
-
-
 
 font-size: 14px;
-justify-content: space-evenly;
+
+padding: 32px 0;
+
+display: block;
 
 line-height: calc(16/14);
 
 letter-spacing: 0.02em;
 
 color: var(--primary-text-color);
-
-display: inline;
-
-padding: 0 10px 0 10px;
 
 
 
@@ -137,8 +145,6 @@ padding: 0 10px 0 10px;
 
 {
     color: var(--accent-color);
-
-    
 }
 
 .nav-link-current
@@ -148,9 +154,18 @@ padding: 0 10px 0 10px;
     
 }
 
+.contact-list
+{
+    display: flex;
+    margin-left: auto;
+}
 
+.contact-item:not(last-child)
+{
+margin-right: 50px;
+}
 
-.contact-mailto
+.contact-links
 {
     font-weight: 500;
 
@@ -162,24 +177,16 @@ padding: 0 10px 0 10px;
 
     color: var(--secondry-text-color);
 
-    justify-content: flex-end;
-text-align: end;
-    display: flex;
+
+    padding: 32px 0;
+
+    display: block;
+
+  
     
 }
 
-.contact-tel
-{
-    font-weight: 500;
 
-    font-size: 14px;
-
-    line-height: calc(16/14);
-
-    letter-spacing: 0.02em;
-
-    color: var(--secondry-text-color);
-}
 /*Main*/
 .hero-section
 {
