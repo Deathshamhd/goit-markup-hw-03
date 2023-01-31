@@ -410,9 +410,10 @@ margin-top: 289px;
 .what-list
 {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 5px;
+   
+    padding: 50px;
+
+    text-align: center;
 }
 
 .what-title
@@ -423,9 +424,13 @@ font-size: 36px;
 
 line-height:calc(42/36);
 
-text-align: center;
+
 
 letter-spacing: 0.03em;
+
+margin-bottom: 50px;
+
+display: flex;
 
 
 
@@ -433,6 +438,11 @@ letter-spacing: 0.03em;
 display:inline
 
 var(--accent-color);
+}
+
+.what-item:first-child
+{
+    margin-left: 215px;
 }
 
 .what-item:not(lastchid)
