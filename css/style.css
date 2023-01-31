@@ -192,10 +192,14 @@ margin-right: 50px;
 {
     
 background:var(--dark-background-color);
-width: 1200px;
-height: 300px;
+width: auto;
+height: 600px;
 
-align-items: center;
+display: flex;
+
+
+
+
 
 }
 .hero-title
@@ -206,7 +210,10 @@ font-size: 44px;
 
 line-height: calc(60/44);
 
-padding-top:5%;
+align-items: center;
+
+margin-top: 200px;
+
 text-align: center;
 
 letter-spacing: 0.06em;
@@ -214,6 +221,9 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 
 color: white;
+
+margin-bottom: 30px;
+
 }
 .hero-button
 {
@@ -223,10 +233,21 @@ color: white;
 background-color:var(--accent-color);
 
 
-align-items: center;
+display: flex;
+
+text-align: center;
+
+padding-top: 10px;
+
+padding-left: 28px;
+
+margin-left: 200px;
 
 
 
+height: 50px;
+
+width: 200px;
 
 border: none;
 
@@ -240,7 +261,7 @@ line-height: calc(30/16);
 
 color: var(--light-background-color);
 
-margin-left: 500px;
+
 
 
 }
