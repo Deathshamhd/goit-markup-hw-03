@@ -297,7 +297,21 @@ color: var(--light-background-color);
     color:var(--secondry-text-color);
 }
 
+.what-section
+{
+   
+text-align: center;
 
+
+}
+
+.what-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
 
 .what-title
 {
@@ -310,6 +324,11 @@ line-height:calc(42/36);
 text-align: center;
 
 letter-spacing: 0.03em;
+
+
+display:inline
+
+
 
 color: var(--primary-text-color);
 }
