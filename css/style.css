@@ -113,6 +113,10 @@ letter-spacing: 0.02em;
 
 color: var(--primary-text-color);
 
+display: inline;
+
+padding: 0 10px 0 10px;
+
 
 
 }
@@ -122,6 +126,7 @@ color: var(--primary-text-color);
 
 {
     color: var(--accent-color);
+
     
 }
 
