@@ -374,6 +374,8 @@ margin-top: 5px;
 
     padding: 50px;
 
+    word-wrap: break-word;
+
     
 
 
@@ -455,24 +457,38 @@ var(--accent-color);
     width: 1600px;
     height: 648px;
 
+    align-items: center;
+
+
+
+   
+
 }
 
 .team-title
 {
     text-align: center;
+
+    padding-top: 50px;
+   
+
 }
 
 .team-item 
+
 {
- 
-   
-   justify-content: center;
+    margin-left: 30px;
 
-align-items: center;
+    justify-content: space-evenly;
 
-  
+    background-color: #ffffff;
 
-    background-color: #ffffff
+    margin-top: 150px;
+}
+
+.team-item:first-child
+{
+    margin-left: 150px;
 }
 
 .team-title
