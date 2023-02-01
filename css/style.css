@@ -555,12 +555,34 @@ letter-spacing: 0.03em;
 color: var(--secondry-text-color);
 }
 
-*/Portfolio-page*/
+/*PROTFOLIO*/
+
+.button-section
+{
+    display: flex;
+
+    padding-bottom:56px; 
+}
+
+
+
 
 .all-section
 {
     color: var(--light-background-color);
 }
+
+.project-title
+{
+    display: flex;
+
+    text-align: center;
+
+    justify-content: center;
+
+    margin-bottom: 15px;
+}
+
 
 .button-list
 {
@@ -571,13 +593,22 @@ color: var(--secondry-text-color);
 
     border-radius: 4px;
 
-   
+   display: flex;
+
+   justify-content: center;
+
+
+
+   padding-left: 8px;
+
 
     font-weight: 500;
 
     font-size: 16px;
 
 line-height: calc(26/16);
+
+
 
 }
 
@@ -591,7 +622,7 @@ line-height: calc(26/16);
 
    border-radius: 4px;
 
-   
+   margin-left: 8px;
 
    font-weight: 500;
 
@@ -600,6 +631,10 @@ line-height: calc(26/16);
 line-height: calc(26/16);
 
 border: none;
+
+width: 103px;
+
+height: 38px;
 
 cursor: pointer;
 
@@ -637,6 +672,25 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--primary-text-color);
+}
+
+.project-list
+{
+    display: flex;
+
+    flex-wrap: wrap;
+
+    margin-top: 34px;
+
+
+}
+
+
+.project-item
+{
+    padding-left: 30px;
+
+    padding-right: 30px;
 }
 
 .project-name
