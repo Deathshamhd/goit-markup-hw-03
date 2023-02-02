@@ -108,7 +108,7 @@ color:var(--accent-color);
 .nav-list
 {
     
-    color: var(--light-background-color);
+    
 
     display: flex;
    
@@ -120,6 +120,7 @@ color:var(--accent-color);
 {
     margin-right: 53px;
 }
+
 .nav-link
 {
 font-weight: 500;
@@ -160,7 +161,7 @@ color: var(--primary-text-color);
     margin-left: auto;
 }
 
-.contact-item:not(last-child)
+.contact-item:not(:last-child)
 {
 margin-right: 50px;
 }
@@ -191,15 +192,9 @@ margin-right: 50px;
 .hero-section
 {
     
-background:var(--dark-background-color);
-width: auto;
-height: 600px;
+background-color:var(--dark-background-color);
 
-display: flex;
-
-
-
-
+padding: 200px 0;
 
 }
 .hero-title
@@ -212,7 +207,7 @@ line-height: calc(60/44);
 
 align-items: center;
 
-margin-top: 200px;
+
 
 text-align: center;
 
@@ -232,22 +227,16 @@ margin-bottom: 30px;
 
 background-color:var(--accent-color);
 
+display: block;
 
-display: flex;
+margin: 0 auto;
 
-text-align: center;
+padding: 10px 20px;
 
-padding-top: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-padding-left: 28px;
+border-radius: 4px;
 
-margin-left: 200px;
-
-
-
-height: 50px;
-
-width: 200px;
 
 border: none;
 
@@ -294,6 +283,11 @@ letter-spacing: 0.06em;
 
 color: var(--light-background-color);
 }
+
+
+
+
+
 /*FEATURES SECTIONS */
 
 
@@ -316,21 +310,16 @@ color: var(--light-background-color);
 .feature-Call
 {
 
-    font-family: 'Roboto';
-
-    font-style: normal;
-
-font-weight: 700;
-
-font-size: 20px;
-
-line-height:calc(16/14);
-
-text-align: center;
-
-padding-bottom: 100px;
-
-text-transform: uppercase;
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 
 
 }
@@ -388,18 +377,20 @@ text-transform: uppercase;
     color:var(--secondry-text-color);
 }
 
-.feature-item:not(lastchild)
+.feature-item:not(:last-child)
 {
     margin-right: 30px;
 }
+
+
+/*WHAT SECTION */
 
 .what-section
 {
    
 text-align: center;
 
-margin-top: 289px;
-
+padding-bottom: 94px;
 
 }
 
@@ -407,9 +398,6 @@ margin-top: 289px;
 {
     display: flex;
    
-    padding: 50px;
-
-    text-align: center;
 }
 
 .what-title
@@ -420,33 +408,21 @@ font-size: 36px;
 
 line-height:calc(42/36);
 
-
-
 letter-spacing: 0.03em;
 
 margin-bottom: 50px;
 
-display: flex;
-
-
-
-
-display:inline
-
-var(--accent-color);
+ color:var(--accent-color);
 }
 
-.what-item:first-child
-{
-    margin-left: 215px;
-}
 
-.what-item:not(lastchid)
+.what-item:not(:first-child)
 
 {
     margin-left: 30px;
 }
 
+/* TEAM-SECTION*/
 
 .team-list
 {
@@ -458,24 +434,9 @@ var(--accent-color);
 {
     background-color: var(--light-background-color);
 
-    margin-top: 94px;
+    padding-top: 94px;
 
-    margin-bottom: 94px;
-
-
-    width: 1600px;
-
-
-
-    height: 648px;
-
-    align-items: center;
-
-
-
-
-
-   
+    padding-bottom: 94px;
 
 }
 
@@ -483,47 +444,33 @@ var(--accent-color);
 {
     text-align: center;
 
-    padding-top: 50px;
-   
 
-}
-
-.team-item 
-
-{
-    margin-left: 30px;
-
-    justify-content: space-evenly;
-
-    background-color: #ffffff;
-
-    margin-top: 150px;
-}
-
-.team-item:first-child
-{
-    margin-left: 150px;
-}
-
-.team-title
-{
     font-weight: 700;
 
     font-size: 36px;
 
-   
-   
+    margin-bottom:50px;
 
-   
+ 
     line-height: calc(42/36);
-    
   
-
     letter-spacing: 0.03em;
 
     color: var(--primary-text-color);
 
 }
+
+.team-item:not(:first-child)
+
+{
+    margin-left: 30px;
+
+}
+.team-item
+{
+    background-color: #FFFFFF;
+}
+
 .team-name
 {
 font-weight: 500;
@@ -532,6 +479,9 @@ font-size: 16px;
 
 line-height:calc(19/16);
 
+padding-top: 30px;
+
+margin-bottom: 10px;
 
 text-align: center;
 
@@ -546,6 +496,9 @@ color:var(--primary-text-color);
 font-size: 16px;
 
 line-height: calc(19/16);
+
+
+padding-bottom: 30px;
 
 
 text-align: center;
@@ -726,31 +679,11 @@ color: var(--secondry-text-color);
 .footer
 {
 
-    width: auto;
-    
-    height: 252px;
-
-    margin-top: 94px;
-
-   
-
-
+    padding: 60px 0;
     background-color: var(--dark-background-color);
 }
 
-.container-footer
 
-{
-
-   
-padding-top: 60px;
-
-
-
-
-
-
-}
 
 .footer-logo
 {
@@ -764,7 +697,6 @@ font-size: 26px;
 
 line-height: calc(31/26);
 
-margin-top: 60px;
 
 letter-spacing: 0.03em;
 
@@ -789,6 +721,11 @@ color: var(--accent-color);
   
    display: flex;
 
+}
+
+.address-item
+{
+    padding-top:2px;
 }
 
 .address-map
